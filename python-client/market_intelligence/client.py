@@ -7,7 +7,7 @@ from .exceptions import APIError, AnalysisTimeoutError, InvalidResponseError
 from .models import AnalysisResult
 
 _DEFAULT_BASE_URL = (
-    "https://local-market-intelligence-api-1040656024374.us-central1.run.app"
+    "https://local-market-intelligence-api-303547506875.us-central1.run.app"
 )
 _DEFAULT_TIMEOUT = 60  # seconds — analyses typically take 10-30 s
 

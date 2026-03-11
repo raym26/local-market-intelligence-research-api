@@ -1,5 +1,5 @@
 const API_BASE =
-  "https://local-market-intelligence-api-1040656024374.us-central1.run.app";
+  "https://local-market-intelligence-api-303547506875.us-central1.run.app";
 
 /**
  * Run a market intelligence analysis.

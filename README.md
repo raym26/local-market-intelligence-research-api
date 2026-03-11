@@ -23,20 +23,20 @@ Get comprehensive market insights, competitor analysis, and strategic opportunit
 
 ## 📖 API Documentation
 
-**Base URL:** `https://local-market-intelligence-api-1040656024374.us-central1.run.app`
+**Base URL:** `https://local-market-intelligence-api-303547506875.us-central1.run.app`
 
-**Interactive Documentation:** [/docs](https://local-market-intelligence-api-1040656024374.us-central1.run.app/docs)
+**Interactive Documentation:** [/docs](https://local-market-intelligence-api-303547506875.us-central1.run.app/docs)
 
 ## 🚀 Quick Start
 
 ### Health Check
 ```bash
-curl https://local-market-intelligence-api-1040656024374.us-central1.run.app/health
+curl https://local-market-intelligence-api-303547506875.us-central1.run.app/health
 ```
 
 ### Market Analysis
 ```bash
-curl -X POST "https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze" \
+curl -X POST "https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze" \
   -H "Content-Type: application/json" \
   -d '{
     "business_type": "coffee shops",
@@ -50,7 +50,7 @@ curl -X POST "https://local-market-intelligence-api-1040656024374.us-central1.ru
 ### JavaScript/Node.js
 ```javascript
 const analyzeMarket = async (businessType, location) => {
-  const response = await fetch('https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze', {
+  const response = await fetch('https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -77,7 +77,7 @@ import requests
 import json
 
 def analyze_market(business_type, location, context=""):
-    url = "https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze"
+    url = "https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze"
     
     payload = {
         "business_type": business_type,
@@ -97,7 +97,7 @@ print(result['analysis']['comprehensive_report'])
 ```php
 <?php
 function analyzeMarket($businessType, $location, $context = "") {
-    $url = 'https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze';
+    $url = 'https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze';
     
     $data = array(
         'business_type' => $businessType,
@@ -130,7 +130,7 @@ require 'net/http'
 require 'json'
 
 def analyze_market(business_type, location, context = "")
-  uri = URI('https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze')
+  uri = URI('https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze')
   
   payload = {
     business_type: business_type,
@@ -257,7 +257,7 @@ const MarketAnalysis = () => {
   const analyzeMarket = async (businessType, location) => {
     setLoading(true);
     try {
-      const response = await fetch('https://local-market-intelligence-api-1040656024374.us-central1.run.app/analyze', {
+      const response = await fetch('https://local-market-intelligence-api-303547506875.us-central1.run.app/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -319,7 +319,7 @@ add_shortcode('market_analysis', 'market_analysis_shortcode');
 
 ## 📞 Support & Contact
 
-- **API Documentation**: [Interactive Docs](https://local-market-intelligence-api-1040656024374.us-central1.run.app/docs)
+- **API Documentation**: [Interactive Docs](https://local-market-intelligence-api-303547506875.us-central1.run.app/docs)
 - **Issues**: Open a GitHub issue for bug reports or feature requests
 - **Business Inquiries**: Contact for enterprise licensing and custom deployments
 
