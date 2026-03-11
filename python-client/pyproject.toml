@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "market-intelligence"
+version = "0.1.0"
+description = "Python client for the Local Market Intelligence API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Proprietary" }
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.urls]
+Repository = "https://github.com/raym26/local-market-intelligence-research-api"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["market_intelligence*"]

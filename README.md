@@ -4,6 +4,14 @@
 
 Get comprehensive market insights, competitor analysis, and strategic opportunities for any business type in any location worldwide.
 
+## Client Libraries & Demo
+
+| | |
+|---|---|
+| **Python SDK** | `pip install git+https://github.com/raym26/local-market-intelligence-research-api.git#subdirectory=python-client` |
+| **React Demo** | [Live Demo](https://raym26.github.io/local-market-intelligence-research-api) |
+| **Jupyter Notebook** | [local_market_intelligence_researcher_demo.ipynb](./local_market_intelligence_researcher_demo.ipynb) |
+
 ## 🌟 Features
 
 - **Multi-Source Data Collection** - Google Places, Foursquare, and enhanced analytics
