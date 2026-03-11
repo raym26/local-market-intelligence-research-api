@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/local-market-intelligence-research-api/static/css/main.dcdb47a3.css",
+    "main.js": "/local-market-intelligence-research-api/static/js/main.654fb404.js",
+    "static/js/453.893d7983.chunk.js": "/local-market-intelligence-research-api/static/js/453.893d7983.chunk.js",
+    "index.html": "/local-market-intelligence-research-api/index.html",
+    "main.dcdb47a3.css.map": "/local-market-intelligence-research-api/static/css/main.dcdb47a3.css.map",
+    "main.654fb404.js.map": "/local-market-intelligence-research-api/static/js/main.654fb404.js.map",
+    "453.893d7983.chunk.js.map": "/local-market-intelligence-research-api/static/js/453.893d7983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcdb47a3.css",
+    "static/js/main.654fb404.js"
+  ]
+}
