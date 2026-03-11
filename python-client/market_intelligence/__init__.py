@@ -8,6 +8,7 @@ from .exceptions import (
     AnalysisTimeoutError,
     InvalidResponseError,
 )
+from .report_generator import generate_excel_report
 
 __all__ = [
     "MarketIntelligenceClient",
@@ -17,4 +18,5 @@ __all__ = [
     "APIError",
     "AnalysisTimeoutError",
     "InvalidResponseError",
+    "generate_excel_report",
 ]
